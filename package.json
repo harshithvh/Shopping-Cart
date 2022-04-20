@@ -1,0 +1,20 @@
+{
+  "name": "payments-auth",
+  "version": "1.0.0",
+  "description": "Payment Authentication",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Harshith VH",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.0.2",
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15",
+    "stripe": "^8.216.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0"
+  }
+}
